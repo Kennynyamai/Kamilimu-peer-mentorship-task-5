@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "build": "vite build",
+    "start": "vite"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,8 @@
     "css": "^3.0.0",
     "tailwind": "^4.0.0",
     "tailwindcss": "^3.4.12"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
   }
 }
